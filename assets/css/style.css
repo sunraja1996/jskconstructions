@@ -493,7 +493,7 @@ hr {
   letter-spacing: 1px;
   line-height: 0;
   margin-bottom: 0;
-  margin: 10px;
+  margin: 7px;
   cursor: pointer;
   transition: color 0.4s linear;
   position: relative;
@@ -502,6 +502,7 @@ hr {
   overflow: hidden;
   margin: 0;
 }
+
 
 /* line 271, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
 .btn::before {
@@ -559,7 +560,7 @@ a:hover {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 308, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
   .btn3 {
-    margin-top: 30px;
+    margin-top: 10px;
     padding: 35px 0;
   }
 }
@@ -567,6 +568,7 @@ a:hover {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 308, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_common.scss */
   .btn3 {
+    margin-top: 0px;
     padding: 35px 0;
   }
 }
@@ -3663,6 +3665,9 @@ hero-btn {
   .bg-video {
     width: 100%;
     height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -3670,6 +3675,9 @@ hero-btn {
   .bg-video {
     width: auto;
     height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -3677,6 +3685,9 @@ hero-btn {
   .bg-video {
     width: auto;
     height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -3976,6 +3987,34 @@ hero-btn {
   font-weight: 700;
   font-size: 24px;
   display: block;
+}
+
+
+@media screen and (max-width: 767px) {
+  .services-area .single-services .services-caption h3 a {
+    font-size: 18px;
+  }
+}
+
+/* Media screen of min-width: 768px and max-width: 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .services-area .single-services .services-caption h3 a {
+    font-size: 20px;
+  }
+}
+
+/* Media screen of min-width: 992px and max-width: 1199px */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .services-area .single-services .services-caption h3 a {
+    font-size: 22px;
+  }
+}
+
+/* Media screen of min-width: 1200px and max-width: 1439px */
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .services-area .single-services .services-caption h3 a {
+    font-size: 24px;
+  }
 }
 
 /* line 28, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/assets/scss/_services_section.scss */
