@@ -245,6 +245,9 @@
 
 
 
+
+
+
 const form = document.querySelector('.form-contact');
 const submitBtn = form.querySelector('button[type="submit"]');
 const thankYouMessage = document.querySelector('.thank-you-message');

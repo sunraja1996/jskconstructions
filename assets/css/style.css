@@ -8179,4 +8179,18 @@ del {
   margin-bottom: 10px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.foo-social-fb:hover {
+  color: #3b5998;
+  transition: color 0.3s ease;
+}
+
+.foo-social-wb:hover {
+  color: #00ffbf;
+  transition: color 0.3s ease;
+}
+
+.foo-social-ig:hover {
+  color: #d62976;
+  transition: color 0.3s ease;
+}
+
